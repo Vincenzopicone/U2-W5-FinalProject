@@ -152,6 +152,10 @@ main > section {
     border-radius: 30px;
 }
 
+.topArticoli span {
+    margin-left: 3%;
+}
+
 
 /* ARTICLE */
 
@@ -162,6 +166,123 @@ main > section {
 }
 
 .sideSectionContainer {
+    width: 65%;
 }
 
+.containerArticoli {
+    width: 100%;
+    padding-right: 5%;
+}
+
+
+.containerArticoli h4 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 2%;
+}
+
+.containerArticoli h2 {
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.containerArticoli h3 {
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.containerArticoli p {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 2%;
+    font-size: 0.8em;
+}
+
+p button {
+    background-color: rgb(235, 229, 229);
+    border: none;
+    color: gray;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin-right: 5%;
+}
+
+.containerArticoli span {
+    display: flex;
+    margin: 0 1% 0 1%;
+}
+
+h4 img {
+    border-radius: 30px;
+    width: 70%;
+
+}
+
+#imgBordiStondati {
+    border-radius: 7px;
+}
+
+.sideArticoli {
+    display: flex;
+    margin: 0% 3% 5% 0;
+}
+
+
+
+.sideArticoli>img {
+    width: 39%;
+}
+
+
+
 /* ASIDE */
+
+aside {
+    width: 35%;
+}
+
+aside h2 {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+
+.asideButton {
+    margin-bottom: 5%;
+    padding-bottom: 6%;
+    border-bottom: 1px solid lightgray;
+}
+
+.asideButton button {
+    color: gray;
+    font-weight: 500;
+    border: lightgray 1px solid;
+    background-color: white;
+    padding: 3% 4%;
+    border-radius: 5px;
+    margin: 2% 2% 0 0;
+}
+
+.asideList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    font-weight: 300;
+    font-size: 0.8em;
+
+}
+
+.asideList li {
+    margin: 4% 6% 0 0;
+    font-weight: 400;
+}
