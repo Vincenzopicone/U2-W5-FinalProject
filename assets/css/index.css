@@ -178,7 +178,6 @@ main > section {
     margin-left: 3%;
 }
 
-
 /* ARTICLE */
 
 .parteInferiore {
@@ -216,6 +215,7 @@ main > section {
     color: gray;
     font-weight: 400;
     margin-bottom: 2%;
+    font-size: 0.9em;
 }
 
 .containerArticoli p {
@@ -283,7 +283,6 @@ aside h2 {
     margin-bottom: 5%;
     padding-bottom: 6%;
     border-bottom: 1px solid lightgray;
-
 }
 
 .asideButton button {
