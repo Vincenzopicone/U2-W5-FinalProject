@@ -16,6 +16,8 @@ nav {
     position: sticky;
     z-index: 999;
     top: 0;
+    border-bottom: #191919 solid 1px;
+
 }
 
 .buttonNav {
@@ -52,9 +54,8 @@ header {
     background-color: #ffc017;
     padding: 0.1% 13%;
     border-bottom: #191919 solid 1px;
-    border-top: #191919 solid 1px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 250px;
 }
@@ -78,8 +79,16 @@ header section p {
     width: 35%;
 }
 
+header aside {
+    position: relative;
+    height: 95%;
+}
+
 header aside svg {
     width: 100%;
+    margin-top: 3%;
+    position: absolute;
+    right: -30%;
 }
 
 /* MAIN */
@@ -274,6 +283,7 @@ aside h2 {
     margin-bottom: 5%;
     padding-bottom: 6%;
     border-bottom: 1px solid lightgray;
+
 }
 
 .asideButton button {
