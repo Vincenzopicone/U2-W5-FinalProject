@@ -1,3 +1,167 @@
 body {
-    font-family: Spectral, Roboto;
+    font-family: Roboto,  Spectral;
+    font-size: 1em; 
 }
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc017;
+    padding: 2% 13%;
+}
+
+.buttonNav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonNoBG {
+    background-color: #ffc017;
+    border: unset;
+    font-size: 0.6rem;
+}
+
+.buttonBGBlackNav {
+    background-color: #191919;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.6rem;
+    padding: auto 5%;
+    
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: #ffc017;
+    padding: 0.1% 13%;
+    border-bottom: #191919 solid 1px;
+    border-top: #191919 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+header section h2 {
+    font-size: 4em;
+    font-family: Spectral;
+    margin-bottom: 5%;
+}
+
+header section p {
+    margin-bottom: 5%;
+}
+
+
+.buttonBGBlackHeader {
+    background-color: #191919;
+    color: white;
+    border-radius: 15px;
+    padding: 1% 5%;
+    width: 35%;
+}
+
+header aside svg {
+    width: 100%;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    padding: 3% 13%;
+}
+
+main > section {
+    width: 100%;
+    border-bottom: lightgray 1px solid;
+}
+
+
+/* SECTION */
+
+.titleSection {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;   
+}
+
+.titleSection h4 {
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+
+.topSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.topArticoli {
+    width: 310px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0% 2% 4% 0%;
+}
+
+.topArticoli h2 {
+    color: lightgray;
+    font-weight: 900;
+    font-size: 1.5em;
+    opacity: 0.6;
+    margin-right: 5%;
+}
+
+.titleArticoli {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+
+.titleArticoli h4 {
+    font-weight: 500;
+    margin: auto auto auto 4%;
+    font-size: 0.8em;
+}
+
+.topArticoli h3 {
+    font-weight: 700;
+    margin: 5% auto;
+}
+
+.topArticoli p {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.titleArticoli img {
+    border-radius: 10px;
+}
+
+#imgTonda {
+    border-radius: 30px;
+}
+
+
+/* ARTICLE */
+
+.parteInferiore {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 3%;
+}
+
+.sideSectionContainer {
+}
+
+/* ASIDE */
