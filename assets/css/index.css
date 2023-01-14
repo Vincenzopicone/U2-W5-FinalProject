@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #ffc017;
-    padding: 1.5% 13%;
+    padding: 1.5% 10%;
 }
 
 .sticky {
@@ -32,28 +32,36 @@ nav {
 
 .buttonNav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 50%;
+    cursor: pointer;
 }
+
 
 .buttonNoBG {
     background-color: unset;
     border: unset;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    cursor: pointer;
+    
 }
 
 .buttonNoBGMobile {
     background-color: unset;
     border: unset;
-    font-size: 0.9em; 
+    font-size: 0.8em; 
+    cursor: pointer;
+    
 }
 
 .buttonBGBlackNav {
     background-color: #191919;
     color: white;
     border-radius: 20px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 2% 4%;  
+    cursor: pointer;
+    
 
 }
 
@@ -63,7 +71,7 @@ nav {
 
 header {
     background-color: #ffc017;
-    padding: 0.1% 13%;
+    padding: 0.1% 10%;
     border-bottom: #191919 solid 1px;
     display: flex;
     justify-content: space-between;
@@ -89,6 +97,7 @@ header section p {
     border-radius: 20px;
     padding: 2% 4%;
     width: 35%;
+    cursor: pointer;
 }
 
 header aside {
@@ -107,7 +116,7 @@ header aside svg {
 
 main {
     background-color: white;
-    padding: 3% 13%;
+    padding: 3% 10%;
 }
 
 main > section {
@@ -206,6 +215,7 @@ main > section {
 .containerArticoli {
     width: 65%;
     padding-right: 5%;
+
 }
 
 
@@ -277,15 +287,19 @@ h4 img {
 
 .sideArticoli {
     display: flex;
-    margin: 0% 3% 5% 0;
+    margin: 0% 3% 1% 0;
 }
 
 
 
 .sideArticoli>img {
     width: 35%;
+    padding: 0 0 8% 0;
 }
 
+.articoloBasso img {
+    opacity: 0.4;
+}
 
 
 
@@ -377,14 +391,15 @@ aside h2 {
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 1199px) {
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
   
     nav, header, main {
         padding: 1% 3%;
     }
 
     .buttonNav {
-        width: 65%;
+        width: 55%;
     }
 
     .topSection {
